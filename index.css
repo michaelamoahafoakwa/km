@@ -1,0 +1,82 @@
+h1{
+    display:inline-block;
+    font-weight: 300;
+  margin: 0 32px 0 0;
+  font-family: "Big Shoulders Inline", sans-serif;
+}
+.links{
+    display:inline-block;
+}
+
+.links li{
+    display:inline-block;
+    margin:0 20px;
+   
+    
+}
+
+.links a{
+    color:black;
+    text-emphasis: none;
+    font-size: 20px;
+    margin:0 3px;
+    text-decoration: none;
+   
+}
+.links ul{
+    padding:0;
+}
+
+a.active{
+    border-bottom: 1px solid black;
+}
+.navbar{
+    margin:32px;
+}
+.card{
+    width:49.75%;
+    display:inline-block;
+    box-sizing: border-box;
+padding:16px;
+min-width: 600px;
+
+}
+.card img{
+    height: 500px;
+    width:100%;
+    object-fit: cover;
+    transition-duration: 0.3s all ease;
+    border-radius:5px;
+    min-width: 600px;
+}
+.card h2{
+    display:inline-block;
+  margin:8px 0 16px 0;
+    font-weight: 300;
+}
+.card img:hover{
+    box-shadow: 8px 8px 8px black;
+}
+.about{
+    width:40%;
+    min-width: 600px;
+    margin:100px 0 100px 200px;
+    font-family: "Big Shoulders Inline", sans-serif;
+}
+.about h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+.contact{
+    margin-top:100px;
+}
+.contact p{
+    margin:0;
+    font-size:20px;
+}
+.cta{
+    border-bottom: 1px solid black;
+    display:inline-block;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
